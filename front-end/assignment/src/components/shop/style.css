@@ -1,0 +1,139 @@
+.shop .category {
+    padding: 30px;
+    height: 85vh;
+}
+
+.chead h1 {
+font-size: 1.4rem;
+margin-bottom: 1.4rem;
+}
+
+.chead h1:nth-child(2) {
+opacity: 0.5;
+border-left: 3px solid #ffffffb3;
+padding-left: 4rem;
+}
+
+.shop .category .box {
+background-color: #8b919788;
+margin: 0.7rem 0;
+padding: 0 1.6rem;
+transition: 0.5s;
+border-radius: 5px;
+}
+
+.brandimg{
+width: 4rem;
+margin-right: 2rem;
+}
+
+
+.shop .category .box:hover {
+background-color: #fff;
+box-shadow: rgba(20, 133, 127, 0.489) 0px 4px 16px;
+color: black;
+font-weight: 600;
+}
+
+.shop .box2 {
+margin-top: 4rem !important;
+text-align: center;
+}
+
+.shop .category button {
+padding: 10px;
+background: none;
+text-align: center;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.shop .contentWidth {
+margin-left: 30px;
+}
+
+.contentWidth .heading-left h2{
+  margin-left: -10.5rem;
+}
+
+.grid1 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+}
+
+.shopProImg{
+    margin: 1.5rem 0.5rem 0;
+    width: 95%;
+    border-radius: 1.2rem;
+}
+
+.shop .product img {
+align-items: center;
+
+}
+
+.shop .product {
+transition: 0.5s;
+}
+
+.shop .product:hover {
+box-shadow: rgba(233, 235, 237, 0.418) 0px 4px 16px;
+}
+
+
+/*************Single product*******/
+
+.singleproduct{
+  background-color: #3f5657;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  
+}
+
+.singletop{
+  display: flex;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.singleimg{
+  margin: 2rem;
+}
+
+.single-detail{
+  margin: auto 2rem;
+}
+
+.single-detail h2{
+  font-size: 35px;
+}
+
+.singleprice{
+  color: rgb(229, 192, 30);
+  font-size: 25px;
+  margin: 2rem 0;
+}
+
+.singbtn{
+
+  display: flex;
+  padding: 2rem 0;
+}
+
+.singbtnsub{
+  background: #09bbc1;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin: 1rem 4rem 1rem 0;
+}
+
+.singcartbtn, .contshopbtn{
+  background: #09bbc1;
+  padding: 10px 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  width: 15rem;
+}

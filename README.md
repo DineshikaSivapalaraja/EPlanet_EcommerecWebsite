@@ -1,2 +1,2 @@
-# EPlanet_EcommerecWebsite
-Group project_ Contains_Frontend 
+# Eplannet
+Eplannet is an Ecommerce website for electronic items. Here the it contains only the code of the front-end part.

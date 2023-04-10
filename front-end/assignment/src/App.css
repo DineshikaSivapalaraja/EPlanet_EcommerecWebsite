@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(58, 63, 63); 
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background{
+    /*background-color: rgb(63, 75, 75); */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(254, 255, 255)
+}
+
+li {
+    list-style: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.RText{
+    text-align: right;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.row {
+  width: 50%;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #3d5354fa;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.boxShadow{
+  box-shadow: rgb(43 52 69 /10%) 0 4px 16px;
+}
+
+/***************category*****************/
+.contentWidth {
+  width: 77%;
+}
+
+.category {
+  width: 22%;
+  box-shadow: rgba(193, 194, 194, 0.377) 0 4px 16px;
+  height: 30rem;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  
+}
+
+.category i {
+  width: 30px;
+  height: 30px;
+  margin-top: 13px;
+  object-fit: contain;
+}
+.category span {
+  margin: 10px 0 10px 20px;
+  text-transform: capitalize;
+  width: 70%;
+}
+
+.category .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+
+.category .box:hover {
+  color: #8dfbfe;
+  background-color: #002628;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+/***************category*****************/
+
+.btn-primary {
+  background: #09bbc1;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.btn-primary:hover {
+  color: #aaf4f7;
+  background-color: #002628;
+  cursor: pointer;
+  padding: 13px 40px;
+  border-radius: 5px;
+}
+
+.top {
+  margin-top: 4rem;
+}
+.mtop {
+  margin-top: 2rem;
+}
+.heading{
+  margin-left: 40rem;
+  
+}
+
+.heading i {
+  color: #09bbc1;
+  margin: 10px;
+}
+
+
+/**********flash deals***********/
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #047478;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 20px;
+  font-weight: bold;
+}
+
+
+.plus{
+  width: 30px;
+  padding-left: 3px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 4px;
+
+}
+
+
+.flashpic {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.flash_background{
+  margin-top: 3rem;
+  
+  
+}
+
+.control-btn .next,
+.control-btn .prev{
+  position: absolute;
+  top: 45%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #047478;
+  border-radius: 50%;
+  transition: 0.5s;
+  z-index: 5;
+}
+
+.control-btn .prev{
+  left: -20px;
+}
+.control-btn .next{
+  right: -20px;
+}
+
+.next i, .prev i{
+ 
+ color: #fff;
+ font-size: 1rem;
+ transition: 0.5s;
+ 
+}
+
+.control-btn .next:hover, .control-btn .prev:hover{
+  background-color: #8ea2a2;
+  color: #fff;
+  cursor: pointer;
+  
+ }
+
+/****************product******************/
+
+
+.product {
+  background-color: #0474783a;
+  padding: 2rem;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  margin: 0.5rem;
+  height: 32rem;
+}
+
+.product h3 {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.product .rate{
+  margin-left: 2rem;
+}
+
+.product .rate i {
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 5px 5px 5px 0;
+}
+.product .price {
+  display: flex;
+  justify-content: space-between;
+  color: #05c4ca;
+  margin-left: 2rem;
+}
+.price button {
+  background: none;
+  color: #05c4ca;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 1px solid rgba(5, 56, 35, 0.09);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+
+}
+.price button:hover {
+  cursor: pointer;
+  background-color: #047478;
+  color: #fff;
+}
+
+.product-like {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s;
+  
+}
+.product-like .likeLable {
+  background-color: #047478;
+  padding: 1px 10px;
+  font-size: 12px;
+  color: white;
+  border-radius: 100px;
+}
+.product-like i {
+  font-size: 20px;
+  margin: 10px 3px;
+}
+.product:hover .product-like {
+  opacity: 1;
+}
+/*---------product-----------*/
+
+/*----- heading -------*/
+.topCat{
+  margin-top: 2rem;
+}
+
+.heading .heading-left i {
+  font-size: 30px;
+}
+.heading .heading-left h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right i,
+.heading .heading-right {
+  text-align: right;
+  color: #a0b1b2;
+}
+/*----- heading -------*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+/**********big discounts**********/
+
+.Discount .box{
+  height: 20rem;
+  margin-top: 1.5rem;
+  background-color: #0474783a;
+}
+/*
+@media only screen and (max-width: 767px) {
+  /* CSS styles for screens less than 768px 
+  .container {
+    max-width: 100%;
+  }
+
+  .grid2 {
+    display: block;
+    
+  }
+}
+*/
+
+@media only screen and (max-width: 912px) {
+  
+  .grid2 {
+    display:block;
+    
+  }
+}
